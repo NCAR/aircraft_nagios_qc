@@ -1,9 +1,10 @@
 # -*- python -*-
 
-import os, sys
+import os
+import sys
 
-sys.path.insert(0, os.path.abspath("../caledit/site_scons"))
-import site_init
+sys.path.append('site_scons')
+import eol_scons 
 
 env = Environment(tools=['default', 'jlocal', 'pylint',
                          'testing', 'postgres_testdb'])
