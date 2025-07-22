@@ -1,0 +1,3 @@
+[submodule "site_scons"]
+	path = site_scons
+	url = git@github.com:NCAR/eol_scons.git
